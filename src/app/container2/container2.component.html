@@ -1,0 +1,16 @@
+<div class="cont-2 d-flex" *ngFor="let item of database1">
+  <div class="cont-2-1">
+    <img src="{{item.image}}" class="image">
+  </div>
+  <div class="cont-2-2">
+    <div class="text-1">
+      {{item.title}}
+    </div>
+    <div class="text-2">
+      <b>{{item.text}}</b>
+    </div>
+    <div class="text-3">
+      <b>{{item.read}}</b>
+    </div>
+  </div>
+</div>

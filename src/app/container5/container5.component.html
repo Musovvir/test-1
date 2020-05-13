@@ -1,0 +1,33 @@
+<div class="container-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="upcoming">
+          Upcoming Events
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let item of database4">
+        <div class="cont-5">
+          <img src="{{item.image}}" class="image">
+          <div class="text-1">
+            <b>
+              {{item.title}}
+            </b>
+          </div>
+          <div class="text-2">
+            <b>
+              {{item.text}}
+            </b>
+          </div>
+          <div class="text-3">
+            <b>
+              {{item.read}}
+            </b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
